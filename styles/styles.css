@@ -1,0 +1,28 @@
+li {
+	display: inline;
+	border: 1px solid black;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+p{
+	position: relative;
+	width: 550px;
+}
+li:hover{
+background-color: #EBEBEB;
+}
+a{ 
+	text-decoration: none;
+	color: black;
+}
+@media screen and (max-width: 900px){
+	li{
+		display: block;
+		width: 150px;
+	}
+	p{
+		left: 230px;
+		top: -180px;
+		width: 500px;
+	}
+}
